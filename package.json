@@ -1,0 +1,26 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Get the Weather report based on City",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekhar66/WeatherApp.git"
+  },
+  "author": "Shekhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shekhar66/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/shekhar66/WeatherApp#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
