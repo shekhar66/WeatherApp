@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
   res.render("index", { header: "Weather App" });
 });
 
+app.get("*", (req, res) => {
+  res.render("notfound");
+});
+
 app.listen("8080", () => {
   console.log("App running on PORT 8080......");
 });
